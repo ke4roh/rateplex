@@ -57,5 +57,14 @@ and list of genres to exclude.
 }
 ```
 
+## Running
+It's simple.  Get help the first time and put together the command line you like.
+
+`python3 ./rateplex.py --help`
+
+Note that you can have it delete or list bad recordings (or do nothing to them).  This feature helps with bad reception in case some recording was trash.
+
+If you specify the ``--record`` option, it will automatically schedule recordings for you.  Otherwise, it will just list the shows it found.
+
 ## Contributing
 Pull requests and forks are welcome!
